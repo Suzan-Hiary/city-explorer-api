@@ -10,9 +10,9 @@ const weather = require("./data/weather.json");
 app.use(cors());
 
 
-// app.get("/", (req, res) => {
-//     res.send('server Working')
-// })
+app.get("/", (req, res) => {
+    res.send('server Working')
+})
 
 app.get("/weather", (req, res) => {
     console.log(req.query);
@@ -29,8 +29,8 @@ app.get("/weather-data", (req, res) => {
     }
     const exploreCity = weather.find((item) => {
         return (item.city_name.toLowerCase() === searchQuery.toLowerCase() 
-        //     (item.lat === lat )
-        //    ( item.lon === lon))
+            // item.lat === lat ||
+            // item.lon === lon
 
         )
     });

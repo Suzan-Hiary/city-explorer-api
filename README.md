@@ -21,12 +21,12 @@ ASAC
 
 
 
-Name of feature: ________________________________
+Name of feature: ___________connect the backend with the frontend_____________________
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: ___2 hr__
 
-Start time: _____
+Start time: __monday___
 
-Finish time: _____
+Finish time: _wednesday____
 
-Actual time needed to complete: _____
+Actual time needed to complete: _____2 days
